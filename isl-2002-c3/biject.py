@@ -83,10 +83,7 @@ def print_map_fulls(fulls):
 
 def main():
     while True:
-        input_char = input('''Choose one:\n
-                           Generate all (A)\n
-                           Map a permutation to a full sequence (P)\n
-                           Map a full sequence to a permutation (F)\n''')
+        input_char = input('Choose one:\nGenerate all (A)\nMap a permutation to a full sequence (P)\nMap a full sequence to a permutation (F)\n')
 
         try:
             char = str(input_char)
@@ -145,12 +142,12 @@ def main():
             for k in full:
                 appeared.add(k)
                 if k > 1:
-                    if k not in check:  # first occurrence of k
-                        if (k - 1) in appeared: # if (k-1) has not appeared, k is not yet valid
+                    if k not in check:              # first occurrence of k
+                        if (k - 1) in appeared:     # if (k-1) has not appeared, k is not yet valid
                             check[k] = False
-                        else:                   # if (k-1) has appeared, k is definitely valid
+                        else:                       # if (k-1) has appeared, k is definitely valid
                             check[k] = True
-                    else:   # not the first occurrence of k
+                    else:                                       # not the first occurrence of k
                         if check[k] and (k - 1) in appeared:    # if (k-1) has appeared, k is definitely valid
                             check[k] = False
 
