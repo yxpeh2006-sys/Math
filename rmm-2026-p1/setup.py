@@ -179,4 +179,4 @@ class Graph():
         for triangle in triangle_choice:
             triangle.print()
             total_area += triangle.area
-        print(f'Sum of areas: {total_area:.1f}')
+        print(f'Sum of areas: {total_area:.4f}')
