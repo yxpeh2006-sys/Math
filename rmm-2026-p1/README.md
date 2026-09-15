@@ -110,4 +110,4 @@ Finally, the user is asked whether they want to view the Hamiltonian cycle. Typi
 View Hamiltonian cycle? (y/n) y
 [0, 1, 5, 3, 6, 4, 2, 0]
 ```
-![Hamiltonian Cycle](visuals\Figure_2.png)
+![Hamiltonian Cycle](visuals/Figure_2.png)
