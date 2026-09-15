@@ -35,7 +35,7 @@ For example, in the permutation $(3, 5, 8, 9, 2, 4, 7, 1, 6)$, the first scan fr
 
 How do we turn this into a full sequence of length $n$? The fact that we had to scan again from the right when $k+1$ is to the right of $k$ feels very reminiscent of the defining property of a full sequence. 
 
-This motivates the following operation: where we found numbers in the $k$-th scan of the permutation, we write $k$ in those positions of our full sequence. That means, for our example permutation, since the first scan only found $1, 2, 3$, we write $1$'s in the first, fifth, and eighth positions of the full sequence, since those are where $1, 2, 3$ are in the example permutation. We end up with the partial sequence $(1, -, -, -, 1, -, -, 1, -)$.
+This motivates the following operation: where we found numbers in the $k$-th scan of the permutation, we write $k$ in those positions of our full sequence. That means, for our example permutation, since the first scan only found $1, 2, 3$ in the first, fifth, and eighth positions of the permutation, we write $1$'s in the first, fifth, and eighth positions of the full sequence. We end up with the partial sequence $(1, -, -, -, 1, -, -, 1, -)$.
 
 Analogously, we write $2$'s in the same positions where $4, 5$ are found in the permutation, to get $(1, 2, -, -, 1, 2, -, 1, -)$. 
 
