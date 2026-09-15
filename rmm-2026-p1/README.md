@@ -101,7 +101,7 @@ Bob chooses the following triangles:
 (0, 0.2, [None, 1, 2])
 (1, 0.3, [0, None, 5])
 (5, 0.05, [3, 1, 6])
-Sum of areas: 0.6
+Sum of areas: 0.5500
 ```
 
 Finally, the user is asked whether they want to view the Hamiltonian cycle. Typing `y` will print the labels in order of the cycle, and display the image of the graph with the cycle edges in red.
