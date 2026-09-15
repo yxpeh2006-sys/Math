@@ -2,7 +2,7 @@
 
 ## Description
 
-This programme implements a two-player game featured in problem 1 of 2026 Romanian Masters of Mathematics (RMM). 
+This programme implements a two-player game featured in problem 1 of the 2026 Romanian Masters of Mathematics (RMM). 
 
 This programme makes use of the mathematical logic behind the optimal strategies of the players in games of arbitrary size $n$, preventing a naive brute force search.
 
